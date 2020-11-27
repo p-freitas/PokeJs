@@ -1,7 +1,7 @@
 
-# Getting Started with Create React App
+# Poke.Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido em React usando Hooks, Styled Components para a estilização dos componentes, e requesições na API pública do Pokemon (https://pokeapi.co).
 
 ## Available Scripts
 

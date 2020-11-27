@@ -14,7 +14,6 @@ const EvolutionsSprites = ({name, pokemonGif, stage}) => (
           <Image data-testid="img" src={pokemonGif} />
         </div>
         <div className='name'>{name}</div>
-        {console.log(name, pokemonGif, stage)}
       </Link>
 
     </Container>

@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background-color: #de3a2d87;
+    background-color: rgb(202 237 184 / 85%);
     margin: 0;
     padding: 0;
 

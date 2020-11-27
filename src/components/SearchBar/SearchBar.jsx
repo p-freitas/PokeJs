@@ -23,12 +23,9 @@ const SearchBar = ({ setSearchTerm }) => {
     }, [setSearchTerm, state]);
 
 
-    console.log(setSearchTerm);
-
     const SearchTerm = (data) => {
         setState(data.target.value);
         setSearchTerm(state);
-        console.log(state);
     };
     
 

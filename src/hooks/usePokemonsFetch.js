@@ -15,7 +15,7 @@ export const usePokemonsFetch = () => {
     const [error, setError] = useState(false)
     const [searchTerm, setSearchTerm] = useState('');
     const [isLoadingMore, setIsLoadingMore] = useState(true);
-    console.log(setSearchTerm)
+    //console.log(setSearchTerm)
 
     const fetchPokemons = async (searchTerm = '', limit) => {
         try {
@@ -24,7 +24,7 @@ export const usePokemonsFetch = () => {
 
             pageint++;
             
-            console.log(searchTerm);
+            //console.log(searchTerm);
             const PokemonsAPI = await API.fetchPokemons(searchTerm, limit)
             
             setPokemons(() => ({
@@ -47,7 +47,7 @@ export const usePokemonsFetch = () => {
         limit = limit * pageint;
         
         fetchPokemons(searchTerm, limit)
-        console.log(setSearchTerm)
+        //console.log(setSearchTerm)
         
         setIsLoadingMore(false)
     }, [isLoadingMore, searchTerm, fetchPokemons])

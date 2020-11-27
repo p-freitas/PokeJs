@@ -13,7 +13,7 @@ const BreadCrumbs = ({ pokemonName, pokemon }) => (
         <span>|</span>
         <span>{pokemonName}</span>
     </Content>
-    {console.log(`${TYPE_COLORS[pokemon.types[0].type.name]}`)}
+    {/**console.log(`${TYPE_COLORS[pokemon.types[0].type.name]}`) */}
 </Wrapper>)
 
 export default BreadCrumbs;

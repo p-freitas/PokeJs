@@ -6,13 +6,6 @@ import {
   POKEMON_SPECIE_URL,
 } from "../helpers/config";
 
-const defaultConfig = {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-};
-
 const apiSettings = {
   fetchPokemons: async (searchTerm, limit) => {
     const endpoint = searchTerm

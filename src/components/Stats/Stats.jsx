@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Wrapper, Types, TextAltura, Sprites, Abilities } from './styles';
+import { Wrapper, Types, TextAltura, Abilities } from './styles';
 import { TYPE_COLORS } from '../../helpers/config';
 
 
@@ -26,7 +26,6 @@ const Stats = ({pokemon}) => (
       </div>
       <div>
         <Abilities>
-                {console.log(pokemon)}
               <div className='flex'>
                 <div className='move'>
                   <div className='move-name'>{pokemon.move.name}</div>

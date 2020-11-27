@@ -14,17 +14,22 @@ export const usePokemonFetch = (pokemonId) => {
                 setLoading(true);
                 setError(false);
 
+                //Dados iniciais dos pokemons
                 const pokemon = await API.fetchPokemon(pokemonId);
                 
+                //Dados das habilidades
                 const randomId = pickRandomIndex(800);
                 const move = await API.fetchMove(randomId);
                 console.log(randomId)
 
+                //Dados da espécie
                 const pokemonSpecie = await API.fetchSpecie(pokemon.id);
 
+                //Dados das evoluções
                 const evolutionChainId = pokemonSpecie.evolution_chain.url.split('/')[pokemon.abilities[0].ability.url.split('/').length - 2];
                 const evolutionChain = await API.fetchEvolutionChain(evolutionChainId);
-                console.log(evolutionChainId);
+                //console.log(evolutionChainId);
+                
 
                 setState({
                     ...pokemon,

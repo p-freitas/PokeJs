@@ -3,6 +3,8 @@ import Bush from '../../assets/images/bush-p.png';
 
 export const Wrapper = styled.div`
   font-family: 'VT323', monospace;
+  border: 1px dashed;
+  border-radius: 80px;
 
   :hover {
     background-image: url('${Bush}');

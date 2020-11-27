@@ -1,7 +1,7 @@
 
 # Poke.Js
 
-Projeto desenvolvido em React usando Hooks, Styled Components para a estilização dos componentes, e requesições na API pública do Pokemon (https://pokeapi.co).
+Projeto desenvolvido em ReactJs usando Hooks para a manipulação de states e requesições na API pública do Pokemon (https://pokeapi.co), e o Styled Components para a estilização dos componentes.
 
 ## Available Scripts
 

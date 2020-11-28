@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import VT323Font from '../../assets/Fonts';
-import VT323 from '../../assets/Fonts/VT323-Regular.ttf'
 
 export const Wrapper = styled.div`
   border-radius: 50px;

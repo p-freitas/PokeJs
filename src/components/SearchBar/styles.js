@@ -21,7 +21,6 @@ export const Content = styled.div`
   padding: 5px;
 
   @media screen and (max-width: 500px) {
-    top: 88%;
     display: inline-table;
   }
 

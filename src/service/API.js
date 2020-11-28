@@ -13,18 +13,22 @@ const apiSettings = {
       : `${POPULAR_BASE_URL}?offset=&limit=${limit}`;
     return await (await fetch(endpoint)).json();
   },
+
   fetchPokemon: async (pokemonId) => {
     const endpoint = `${API_URL}pokemon/${pokemonId}`;
     return await (await fetch(endpoint)).json();
   },
+
   fetchMove: async (abilityId) => {
     const endpoint = `${POKEMON_ABILITY_URL}${abilityId}`;
     return await (await fetch(endpoint)).json();
   },
+
   fetchSpecie: async (pokemonID) => {
     const endpoint = `${POKEMON_SPECIE_URL}${pokemonID}`;
     return await (await fetch(endpoint)).json();
   },
+  
   fetchEvolutionChain: async (evolutionChainId) => {
     const endpoint = `${POKEMON_EVOLUTION_URL}${evolutionChainId}`;
     return await (await fetch(endpoint)).json();

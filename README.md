@@ -3,6 +3,8 @@
 
 Projeto desenvolvido em ReactJs usando Hooks para a manipulação de states e requesições na API pública do Pokemon (https://pokeapi.co), e o Styled Components para a estilização dos componentes.
 
+Netlify: https://kind-borg-1bf1c5.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
